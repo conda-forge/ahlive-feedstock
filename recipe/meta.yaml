@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - param
+    - param <2.0.0
     - numpy
     - pandas
     - bottleneck
